@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" >
+    <test name="Sum test">
+        <classes>
+            <class name="SumTest" />
+        </classes>
+    </test> <!-- Test -->
+    <test name="Multiplication test">
+        <classes>
+            <class name="MultiplicationTest" />
+        </classes>
+    </test> <!-- Test -->
+    <test name="Subtraction Test">
+        <classes>
+            <class name="SubtractionTest" />
+        </classes>
+    </test> <!-- Test -->
+    <test name="Division Test">
+        <classes>
+            <class name="DivisionTest" />
+        </classes>
+    </test> <!-- Test -->
+ </suite>
